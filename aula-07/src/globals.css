@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.menu {
+    @apply bg-gray-800 text-white p-4;
+
+    & li {
+        @apply inline-block mr-4;
+    }
+}
