@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+
+.menu{
+    @apply bg-amber-300;
+
+    & li{
+        @apply inline;
+    }
+
+}
